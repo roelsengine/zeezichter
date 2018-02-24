@@ -1,0 +1,969 @@
+{
+  "settings": {
+    "name": "Kunstenares Marie-jose van der meer spechels",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#ffffff",
+        "secondaryColor": "#f9005d",
+        "successColor": "#39c405",
+        "infoColor": "#040118",
+        "warningColor": "#fac51c",
+        "dangerColor": "#2969b0",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true,
+        "isRtl": false
+      }
+    },
+    "favicon": "",
+    "noImageResize": "",
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 40,
+    "versionPublish": "3.12.1",
+    "path": "file:///C:/Users/roels/Documents/roel/rOels.Engine/website%20zeezicht%20evenementen",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1f5087"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2662a4!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2969b0"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#ffffff!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-2",
+          "_params": {
+            "bgColor": "#2969b0",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/icon-zeezicht-evenementen-heerlen-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "preview",
+              "family": "MobiriseIcons",
+              "link": "index.html",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">zeezicht evenementen</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#social-buttons4-7\" aria-expanded=\"false\">Projecten</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#gallery4-5\" aria-expanded=\"false\">verhuur</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-s\" aria-expanded=\"false\">Evenementruimte</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials3-11\" aria-expanded=\"false\">referenties</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success\" href=\"tel:0031 (0) 45 45 2080037\"><span class=\"socicon socicon-viber mbr-iconfont mbr-iconfont-btn\"></span>Bel +31 (0) 45 2080037</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"index.html#form1-x\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>download Brochure</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"index.html#social-buttons4-7\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span>FACEBOOK</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": "4",
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/lr-2000x1220.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0.6",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "Dit is wat wij bedenken, maken en verhuren",
+                "showText": true,
+                "text": "Wij zijn de bouwers van speciale projecten bij evenementen als pinkpop en solar.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"index.html#gallery4-5\" data-toolbar=\"-mbrBtnMove\">Ons portfolio</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"index.html#header3-l\" data-toolbar=\"-mbrBtnMove\">productverhuur</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"index.html#form1-x\" data-toolbar=\"-mbrBtnMove\">opdrachtgevers</a>  "
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/bij-optreden-alaska-2000x1333.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0.4",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "wij richten evenementen ruimtes in.&nbsp;",
+                "showText": true,
+                "text": "",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"index.html#form2-12\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-pictures mbr-iconfont mbr-iconfont-btn\"></span>Bekijk ons portfolio</a>   <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"index.html#msg-box3-u\" data-toolbar=\"-mbrBtnMove\">Bekijk welke producten wij verhuren</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"index.html#msg-box3-u\" data-toolbar=\"-mbrBtnMove\">Bekijk maatwerk decor en interieurbouw</a> "
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/b99a8133k-2000x1333.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0.4",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "wij verhuren evenement ruimte in heerlen.",
+                "showText": true,
+                "text": "",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"index.html#form2-12\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>Bekijk ons portfolio</a>   <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"index.html#msg-box3-u\" data-toolbar=\"-mbrBtnMove\">Bekijk de ruimte</a> "
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": true
+          },
+          "_anchor": "slider-e",
+          "articleLayout": false
+        },
+        {
+          "_inherit": "social-buttons2",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-size": "36px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons4",
+          "_anchor": "social-buttons4-7",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "bgColor": "#020010",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "volg onze projecten op sociale media",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>     "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-i",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "3",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/iglo-op-markt-sittard-600x338.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "index.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Verhuur evenementen tenten",
+          "subtitle1": "voorbeeld project",
+          "caption1": "Prachtigetent in het centrum van maastricht ingericht",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span>Bekijk onze evenementen tenten</a> <a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>facebook vind ik leuk</a> ",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/bij-optreden-alaska-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "index.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Decor/interieurbouw op maat",
+          "subtitle2": "voorbeeld project",
+          "caption2": "ingericht op rockers",
+          "button2": " <a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>faceboek</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/lr-600x366.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Verhuur evenementen wagens",
+          "subtitle3": "voorbeeld project",
+          "caption3": "Mobiele bioscoop ingezet voor",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-success\" data-toolbar=\"-mbrBtnMove\">Meer evenementen wagens</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/brons-2000x2670.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "30px",
+              "color": "#fac51c",
+              "text-align": "right"
+            },
+            "SMALL": {
+              "color": "#f3c649"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-f",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgColor": "#020010",
+            "showMeta": true
+          },
+          "title": "Het evenementenseizoen start binnenkort wij zoeken evenementopbouwers",
+          "meta": "Schrijf je nu in."
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "SMALL": {
+              "color": "#fac51c"
+            },
+            "H3": {
+              "color": "#efefef"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-w",
+          "_params": {
+            "paddingTop": "6",
+            "paddingBottom": "0",
+            "bgColor": "#020010",
+            "showMeta": true
+          },
+          "title": "Verhuur evenementen producten",
+          "meta": "since , 2016"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery4",
+          "_styles": {
+            "LI": {
+              "color": "#efefef"
+            }
+          },
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20150821-2000x1126-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20150821-2000x1126.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20140731-2000x1553-800x621.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20140731-2000x1553.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/caravan-de-freubeltantes-2000x1493-800x597.jpg",
+                "image": "@PROJECT_PATH@/assets/images/caravan-de-freubeltantes-2000x1493.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ice-cube-2000x1112-800x444.jpg",
+                "image": "@PROJECT_PATH@/assets/images/ice-cube-2000x1112.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/iglo-op-markt-sittard-2000x1126-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/iglo-op-markt-sittard-2000x1126.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/khaima-bruis-2000x1126-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/khaima-bruis-2000x1126.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/preview-cinema-2000x1286-800x514.jpg",
+                "image": "@PROJECT_PATH@/assets/images/preview-cinema-2000x1286.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lr-2000x1220-800x488.jpg",
+                "image": "@PROJECT_PATH@/assets/images/lr-2000x1220.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "1",
+            "showText": true,
+            "filter": true,
+            "bgColor": "#020010",
+            "filterBgColor": false,
+            "fullWidth": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery4-5",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "17px"
+            },
+            "P": {
+              "color": "#efefef"
+            },
+            "I": {
+              "color": "#f3c649",
+              "font-size": "25px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-y",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#2969b0",
+            "showMeta": false
+          },
+          "title": "<i>Vraag nu onze catalogus aan</i>&nbsp;",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-12",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "Blijf op de hoogte nieuwe exposities",
+          "subtitle": "Ontvang uitnodigingen voor exposities, theatervoorstelligen....",
+          "form": {
+            "action": "papercliq@outlook.com",
+            "alerts": {
+              "success": "bedankt"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Email Address..."
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">schrijf je in</a>"
+        },
+        {
+          "_inherit": "testimonials1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#232323"
+            },
+            ".mbr-author-name": {
+              "color": "#ccc"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials3",
+          "testimonial": [
+            {
+              "text": "<p>“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Abanoub S.",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p>“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag & drop with no time design bootstrap builder in present web design world.”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Suffian A.",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p>“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Jhollman C.",
+              "authorBio": "User"
+            }
+          ],
+          "_anchor": "testimonials3-11",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "count": "3",
+            "showImages": false,
+            "showName": true,
+            "showBio": false,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/overzicht-zeezichttenten-2000x1500.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": false
+          },
+          "title": "Onze referenties",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-u",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#020010",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": true
+          },
+          "title": "Download ons visitekaartje",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"index.html#msg-box3-u\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-profile-female mbr-iconfont mbr-iconfont-btn\"></span>klik hier en download het op je telefoon of thuiscomputer</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "content1-r",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgColor": "#efefef"
+          },
+          "text": "<p><b>ADAF</b>\tAmsterdam,&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Kasteel Daelenbroeck</b>\tHerkenbosch,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Kunste en Kastelen</b>\tGronsveld,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Klokgebouw</b>\tEindhoven,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Kunstdagen</b> Wittem\tWittem</span></p><p><b>Galerie La Lanka\tTijnje,</b><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Séphina\t</b>Duiven,</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Hoeve De Erver</b>\tBeek (L)',</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Terpkerkje</b>\tUrmond,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>RosArt\t</b>Sittard,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie 3G</b>\tSittard,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Openbare bibliotheek</b>\tHeerlen,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Park Imstenrade</b>\tHeerlen,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>CBS</b>\tHeerlen,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Hotel de la Station</b>\tHeerlen,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Tischi</b>\tMaastricht,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Bon Ton\t</b>Stiphout,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie La Lanka</b>\tFriesland,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Maple Farm</b>\tBosschenhoofd,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie De Heeren van Voorburg</b>\tVoorburg,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Artgallery</b>\tPanningen,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Beeldentuin Artihove</b>\tBergschenhoek,</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Krefeld\t</b>Krefeld (D),&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Event Pietersheim</b>\tLanaken (B),&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Marry Feldmeyer</b>\tDelft,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Kunstevent\t</b>Rotterdam,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Kunstevent</b>\tArnhem,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Kunstevent</b>\tAntwerpen (B),&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Kunstevent</b>\tEindhoven,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Schinvelderhoeve</b>\tSchinveld,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Café au Calvaire</b>\tMoresnet (B),&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Schimmart</b>\tSchimmert,<b>&nbsp;</b></span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Kasteel Bloemendaal\t</b>Vaals,<b>&nbsp;</b></span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Hoeve De Erver</b>\tBeek (L),<b>&nbsp;</b></span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Villa Proosdij</b>\tKlimmen,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Maple Farm</b>\tBosschenhoofd,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Hotel Prinses Juliana </b>- <b>Galerie Savoureux</b>\tValkenburg a/d Geul</span></p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#ffffff"
+            },
+            "SMALL": {
+              "color": "#f3c649"
+            },
+            "SPAN": {
+              "color": "#000000",
+              "font-size": "36px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-l",
+          "_params": {
+            "paddingTop": "6",
+            "paddingBottom": 1,
+            "bgColor": "#020010",
+            "showMeta": false
+          },
+          "title": "Evenementruimte te huur in heerlen.",
+          "meta": "alleen op afspraak"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#ffffff",
+              "font-size": "30px"
+            },
+            "SMALL": {
+              "color": "#f3c649"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-v",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#020010",
+            "showMeta": true
+          },
+          "title": "wij hebben ruimte voor personeelsfeesten, exposities, theater voorstelligen",
+          "meta": "wij kunnen de ruimte op maat voor u inrichten"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery3",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "images": [
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20151121-2000x1126-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/20151121-2000x1126.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/b99a8133k-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/b99a8133k-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bij-optreden-alaska-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bij-optreden-alaska-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/feestje-in-iglotent-2000x1226-800x490.jpg",
+                "image": "@PROJECT_PATH@/assets/images/feestje-in-iglotent-2000x1226.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "3",
+            "showText": false,
+            "filter": false,
+            "bgColor": "#020010",
+            "filterBgColor": true,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery3-k",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-o",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#000000"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"tel: 0031 (0) 45 45 2080037\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-user2 mbr-iconfont mbr-iconfont-btn\"></span>Bel +31 (0) 45&nbsp;45 2080037</a> <a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"index.html#msg-box3-u\" data-toolbar=\"-mbrBtnMove\">Schelsberg 94, 6413 AG Heerlen, Nederland</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "form1-x",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "CONTACT FORMULIER",
+          "subtitle": "voor al uw vragen kunt u onderstaand formulier gebruiken.",
+          "form": {
+            "action": "papercliq@outlook.com",
+            "alerts": {
+              "success": "Bedankt u krijgt zo spoedig mogelijk een reactie!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Naam*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Telefoon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Bericht"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Verstuur</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-a",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#020010",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "width": 128
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "chat",
+              "family": "et-line",
+              "link": "",
+              "size": 0,
+              "active": true
+            }
+          },
+          "text1": "<strong>Addres</strong><br>Schelsberg 94, 6413 AG Heerlen, Nederland&nbsp;",
+          "text2": "<strong>Contact</strong><br>\nEmail: info@zeezichtheerlen.nl<br>\nPhone: +31 (0) 45 2080037",
+          "text3": "<p><strong>Links</strong><br>\n<a href=\"http://www.limburgse-kunstkring.nl/\" target=\"_blank\">L</a>imburgse kunstkring<a class=\"text-primary\" href=\"https://mobirise.com/\"></a><br>Pinkpop</p><br><p>SOLAR FESTIVAL</p><p><br></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-9",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 rOels.engine"
+        }
+      ]
+    }
+  }
+}
