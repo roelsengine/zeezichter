@@ -472,38 +472,6 @@ h6,
 #ext_menu-2 .dropdown-item[aria-expanded="true"] {
   color: #ffffff!important;
 }
-#social-buttons4-7 .mbr-section-title,
-#social-buttons4-7 .btn-social {
-  color: #fff;
-}
-#social-buttons4-7 .mbr-section-title {
-  font-size: 36px;
-}
-#header3-f .mbr-section-title,
-#header3-f .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-f H3 {
-  font-size: 30px;
-  color: #fac51c;
-  text-align: right;
-}
-#header3-f SMALL {
-  color: #f3c649;
-}
-#header3-w .mbr-section-title,
-#header3-w .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-w SMALL {
-  color: #fac51c;
-}
-#header3-w H3 {
-  color: #efefef;
-}
-#gallery4-5 LI {
-  color: #efefef;
-}
 #header3-y .mbr-section-title,
 #header3-y .mbr-section-subtitle {
   text-align: center;
@@ -518,27 +486,52 @@ h6,
   color: #f3c649;
   font-size: 25px;
 }
+#header3-w .mbr-section-title,
+#header3-w .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-w SMALL {
+  color: #fac51c;
+}
+#header3-w H3 {
+  color: #efefef;
+}
+#gallery4-5 LI {
+  color: #efefef;
+}
+#social-buttons4-7 .mbr-section-title,
+#social-buttons4-7 .btn-social {
+  color: #fff;
+}
+#social-buttons4-7 .mbr-section-title {
+  font-size: 36px;
+}
 #form2-12 .mbr-section-title {
   color: #fff;
 }
 #form2-12 .mbr-section-subtitle {
   color: #a0a0a0;
 }
+#header3-f .mbr-section-title,
+#header3-f .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-f H3 {
+  font-size: 30px;
+  color: #fac51c;
+  text-align: right;
+}
+#header3-f SMALL {
+  color: #f3c649;
+}
+#content1-r P {
+  color: #000000;
+}
 #testimonials3-11 .mbr-section-title {
   color: #232323;
 }
 #testimonials3-11 .mbr-author-name {
   color: #ccc;
-}
-#msg-box3-u .mbr-section-title,
-#msg-box3-u p {
-  color: #000;
-}
-#msg-box3-u .mbr-section-title {
-  color: #ffffff;
-}
-#content1-r P {
-  color: #000000;
 }
 #header3-l .mbr-section-title,
 #header3-l .mbr-section-subtitle {
@@ -564,6 +557,13 @@ h6,
 }
 #header3-v SMALL {
   color: #f3c649;
+}
+#msg-box3-u .mbr-section-title,
+#msg-box3-u p {
+  color: #000;
+}
+#msg-box3-u .mbr-section-title {
+  color: #ffffff;
 }
 #form1-x .form-control-label {
   color: #232323;
