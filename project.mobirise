@@ -24,7 +24,7 @@
     "favicon": "",
     "noImageResize": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 43,
+    "uniqCompNum": 45,
     "versionPublish": "3.12.1",
     "path": "file:///C:/Users/roels/Documents/roel/rOels.Engine/website%20zeezicht%20evenementen",
     "screenshot": "screenshot.png"
@@ -131,7 +131,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">zeezicht&nbsp;</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#gallery4-5\" aria-expanded=\"false\">Verhuur</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#social-buttons4-7\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">Projectbouw</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials2-16\">Specialismes</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Maatwerk</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Referenties</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-v\" aria-expanded=\"false\">Evenementruimte</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success\" href=\"tel:0031 (0) 45 45 2080037\"><span class=\"socicon socicon-viber mbr-iconfont mbr-iconfont-btn\"></span>Bel +31 (0) 45 2080037</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"index.html#form1-x\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>Brochure</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"index.html#social-buttons4-7\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"index.html#msg-box3-u\">visitekaartje</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#gallery4-5\" aria-expanded=\"false\">Verhuur</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#social-buttons4-7\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Projectbouw</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials2-16\">Specialismes</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Maatwerk</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Referenties</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-v\" aria-expanded=\"false\">Evenementruimte</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success\" href=\"tel:0031 (0) 45 45 2080037\"><span class=\"socicon socicon-viber mbr-iconfont mbr-iconfont-btn\"></span>Bel +31 (0) 45 2080037</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"index.html#form1-x\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>Brochure</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"index.html#social-buttons4-7\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"index.html#msg-box3-u\">visitekaartje</a></li>"
         },
         {
           "_tags": [
@@ -229,33 +229,47 @@
         },
         {
           "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
+            ".mbr-section-title": {
+              "color": "#fff"
             },
-            "H3": {
-              "font-size": "17px"
-            },
-            "P": {
-              "color": "#efefef"
-            },
-            "I": {
-              "color": "#fac51c",
-              "font-size": "25px"
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
             }
           },
           "_tags": [
             "Theme"
           ],
-          "_name": "header3",
-          "_anchor": "header3-y",
+          "_name": "form2",
+          "_anchor": "form2-18",
           "_params": {
             "paddingTop": "1",
             "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#2969b0",
-            "showMeta": false
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
           },
-          "title": "<i>Vraag nu onze brochure aan</i>&nbsp;",
-          "meta": "By John Smith posted July 20, 2016"
+          "title": "DOWNLOAD ONZE BROCHURE",
+          "subtitle": "Vul hieronder uw emailadres in en we sturen het naar u op",
+          "form": {
+            "action": "papercliq@outlook.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email Address..."
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">verzend en ontvang de brochure per mail</a>"
         },
         {
           "_tags": [
@@ -583,6 +597,41 @@
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">schrijf je in</a>"
         },
         {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-17",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": true
+          },
+          "title": "TOP 10 PRODUCTEN DIE EEN EVENEMENT ECOLOGISCH MAKEN",
+          "text": "<p>Steeds meer evenementen moeten ecologisch worden opgebouwd en afgebroken worden...</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">lees het artikel hier</a>"
+        },
+        {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
@@ -662,8 +711,8 @@
           "_anchor": "testimonials2-16",
           "_params": {
             "count": 3,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
@@ -675,8 +724,8 @@
             "showTitle": true,
             "showSubtitle": true,
             "showImages": true,
-            "showName": true,
-            "showBio": true
+            "showName": false,
+            "showBio": false
           },
           "title": "ONZE SPECIALISTEN",
           "subtitle": "samen met u maken wij creaties voor evenementen"
@@ -697,7 +746,7 @@
             "paddingBottom": "3",
             "bgColor": "#efefef"
           },
-          "text": "<h1><b>Verhuur partytenten</b>&nbsp;Heerlen, <b>Decorbouw Pinkpop. Verhuur podium&nbsp;</b><span style=\"font-size: 1.07rem; line-height: 1.5;\">Herkenbosch,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Verhuur stoelen</b>&nbsp;expositie.</span></h1><p><b>Galerie La Lanka\tTijnje,</b><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Séphina\t</b>Duiven,</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Hoeve De Erver</b>\tBeek (L)',</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Terpkerkje</b>\tUrmond,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>RosArt\t</b>Sittard,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie 3G</b>\tSittard,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Openbare bibliotheek</b>\tHeerlen,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Park Imstenrade</b>\tHeerlen,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>CBS</b>\tHeerlen,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Hotel de la Station</b>\tHeerlen,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Tischi</b>\tMaastricht,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Bon Ton\t</b>Stiphout,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie La Lanka</b>\tFriesland,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Maple Farm</b>\tBosschenhoofd,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie De Heeren van Voorburg</b>\tVoorburg,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Artgallery</b>\tPanningen,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Beeldentuin Artihove</b>\tBergschenhoek,</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Krefeld\t</b>Krefeld (D),&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Event Pietersheim</b>\tLanaken (B),&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Marry Feldmeyer</b>\tDelft,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Kunstevent\t</b>Rotterdam,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Kunstevent</b>\tArnhem,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Kunstevent</b>\tAntwerpen (B),&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Kunstevent</b>\tEindhoven,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Schinvelderhoeve</b>\tSchinveld,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Café au Calvaire</b>\tMoresnet (B),&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Schimmart</b>\tSchimmert,<b>&nbsp;</b></span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Kasteel Bloemendaal\t</b>Vaals,<b>&nbsp;</b></span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Hoeve De Erver</b>\tBeek (L),<b>&nbsp;</b></span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Villa Proosdij</b>\tKlimmen,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Maple Farm</b>\tBosschenhoofd,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Hotel Prinses Juliana </b>- <b>Galerie Savoureux</b>\tValkenburg a/d Geul</span></p>"
+          "text": "<p><b>Verhuur partytenten</b>&nbsp;Heerlen, <b>Decorbouw Pinkpop. Verhuur podium&nbsp;</b><span style=\"font-size: 1.07rem; line-height: 1.5;\">Herkenbosch,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Verhuur stoelen</b>&nbsp;expositie.</span></p><p><b>Galerie La Lanka\tTijnje,</b><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Séphina\t</b>Duiven,</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Hoeve De Erver</b>\tBeek (L)',</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Terpkerkje</b>\tUrmond,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>RosArt\t</b>Sittard,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie 3G</b>\tSittard,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Openbare bibliotheek</b>\tHeerlen,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Park Imstenrade</b>\tHeerlen,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>CBS</b>\tHeerlen,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Hotel de la Station</b>\tHeerlen,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Tischi</b>\tMaastricht,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Bon Ton\t</b>Stiphout,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie La Lanka</b>\tFriesland,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Maple Farm</b>\tBosschenhoofd,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie De Heeren van Voorburg</b>\tVoorburg,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Artgallery</b>\tPanningen,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Beeldentuin Artihove</b>\tBergschenhoek,</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Krefeld\t</b>Krefeld (D),&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Event Pietersheim</b>\tLanaken (B),&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Marry Feldmeyer</b>\tDelft,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Kunstevent\t</b>Rotterdam,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Kunstevent</b>\tArnhem,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Kunstevent</b>\tAntwerpen (B),&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Kunstevent</b>\tEindhoven,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Schinvelderhoeve</b>\tSchinveld,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Café au Calvaire</b>\tMoresnet (B),&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Schimmart</b>\tSchimmert,<b>&nbsp;</b></span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Kasteel Bloemendaal\t</b>Vaals,<b>&nbsp;</b></span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Hoeve De Erver</b>\tBeek (L),<b>&nbsp;</b></span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Villa Proosdij</b>\tKlimmen,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Galerie Maple Farm</b>\tBosschenhoofd,&nbsp;</span><span style=\"font-size: 1.07rem; line-height: 1.5;\"><b>Hotel Prinses Juliana </b>- <b>Galerie Savoureux</b>\tValkenburg a/d Geul</span></p>"
         },
         {
           "_inherit": "testimonials1",

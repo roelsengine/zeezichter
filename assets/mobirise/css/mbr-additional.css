@@ -472,19 +472,11 @@ h6,
 #ext_menu-2 .dropdown-item[aria-expanded="true"] {
   color: #ffffff!important;
 }
-#header3-y .mbr-section-title,
-#header3-y .mbr-section-subtitle {
-  text-align: center;
+#form2-18 .mbr-section-title {
+  color: #fff;
 }
-#header3-y H3 {
-  font-size: 17px;
-}
-#header3-y P {
-  color: #efefef;
-}
-#header3-y I {
-  color: #fac51c;
-  font-size: 25px;
+#form2-18 .mbr-section-subtitle {
+  color: #a0a0a0;
 }
 #header3-w .mbr-section-title,
 #header3-w .mbr-section-subtitle {
@@ -511,6 +503,10 @@ h6,
 }
 #form2-12 .mbr-section-subtitle {
   color: #a0a0a0;
+}
+#msg-box3-17 .mbr-section-title,
+#msg-box3-17 p {
+  color: #000;
 }
 #header3-f .mbr-section-title,
 #header3-f .mbr-section-subtitle {
